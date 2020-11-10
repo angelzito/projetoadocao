@@ -10,7 +10,7 @@ class Cadastro(models.Model):
     cor = models.CharField(max_length=100)
     contato_do_denunciante = models.CharField(max_length=100)
     teste = models.CharField(max_length=100, null=True)
-    teste_dois = models.CharField(max_length=100, null=True)
+    teste_doiss = models.CharField(max_length=100, null=True)
 
     def __str__(self):
         return self.gravidade_alta_ou_muito_alta
